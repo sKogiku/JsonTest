@@ -9,6 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var kanjiLabel: UILabel!
+    
+    @IBOutlet weak var hiraganaLabel: UILabel!
+    
+    @IBOutlet weak var englishLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
