@@ -15,6 +15,7 @@
 		6E29D1DC252BECF60045D0DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E29D1DA252BECF60045D0DA /* LaunchScreen.storyboard */; };
 		6E29D1E7252BECF60045D0DA /* JsonTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E29D1E6252BECF60045D0DA /* JsonTestTests.swift */; };
 		6E29D1F2252BECF60045D0DA /* JsonTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E29D1F1252BECF60045D0DA /* JsonTestUITests.swift */; };
+		6E29D217252BEF920045D0DA /* jlptN2JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E29D216252BEF920045D0DA /* jlptN2JSON.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6E29D1ED252BECF60045D0DA /* JsonTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E29D1F1252BECF60045D0DA /* JsonTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonTestUITests.swift; sourceTree = "<group>"; };
 		6E29D1F3252BECF60045D0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E29D216252BEF920045D0DA /* jlptN2JSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jlptN2JSON.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		6E29D1CE252BECF60045D0DA /* JsonTest */ = {
 			isa = PBXGroup;
 			children = (
+				6E29D205252BED870045D0DA /* Json */,
 				6E29D1CF252BECF60045D0DA /* AppDelegate.swift */,
 				6E29D1D1252BECF60045D0DA /* SceneDelegate.swift */,
 				6E29D1D3252BECF60045D0DA /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				6E29D1F3252BECF60045D0DA /* Info.plist */,
 			);
 			path = JsonTestUITests;
+			sourceTree = "<group>";
+		};
+		6E29D205252BED870045D0DA /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				6E29D216252BEF920045D0DA /* jlptN2JSON.json */,
+			);
+			path = Json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 				6E29D1DC252BECF60045D0DA /* LaunchScreen.storyboard in Resources */,
 				6E29D1D9252BECF60045D0DA /* Assets.xcassets in Resources */,
 				6E29D1D7252BECF60045D0DA /* Main.storyboard in Resources */,
+				6E29D217252BEF920045D0DA /* jlptN2JSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JsonTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JsonTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

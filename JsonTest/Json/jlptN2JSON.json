@@ -1,0 +1,31 @@
+//
+//  jlptN2JSON.json
+//  JsonTest
+//
+//  Created by Stanislav Kogiku on 2020/10/06.
+//
+
+import Foundation
+
+
+{
+    "jlptKey": [
+        {
+            "jlptName": "N2",
+            "units": [
+                {
+                    "unitTitle": "1 unit",
+                    "chapters": [
+                        {
+                            "chapterName": "1  季節   Seasons",
+                            "title": "Unit 1.1 - Seasons",
+                            "vocabulary": [
+                               
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
