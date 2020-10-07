@@ -15,11 +15,18 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var englishLabel: UILabel!
     
+    @IBOutlet weak var refreshButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+        kanjiLabel.layer.cornerRadius = 15.0
+        refreshButton.layer.cornerRadius = 15.0
+        
     }
 
 
+    @IBAction func refreshButtonPressed(_ sender: Any) {
+    }
 }
 
